@@ -1,5 +1,9 @@
 # Minecraft Control UI
 
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/BLEtpx?utm_medium=integration&utm_source=button&utm_campaign=BLEtpx)
+
+This repository is the source of the [Minecraft Server template on Railway](https://railway.com/deploy/BLEtpx).
+
 Control a Minecraft server with a file browser (rooted at `/data`) and a
 console connected via the itzg stdin pipe.
 
