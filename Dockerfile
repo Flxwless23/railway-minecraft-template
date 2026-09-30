@@ -10,7 +10,7 @@ COPY bunfig.toml tsconfig.json postcss.config.cjs tailwind.config.ts components.
 RUN bunx tailwindcss -c tailwind.config.ts -i src/index.css -o src/tailwind.css --minify
 RUN bun build ./src/index.ts --compile --outfile=server
 
-FROM itzg/minecraft-server:21
+FROM itzg/minecraft-server:java21
 
 ENV CONTROL_PORT=3000
 
