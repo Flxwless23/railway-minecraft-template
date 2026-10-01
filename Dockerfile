@@ -27,3 +27,4 @@ EXPOSE 3000
 WORKDIR /data
 
 ENTRYPOINT ["/app/docker/start.sh"]
+
